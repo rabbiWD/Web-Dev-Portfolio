@@ -116,6 +116,11 @@ nav li a{
     color: #757575;
 }
 
+.btn{
+    display: flex;
+    gap: 25px;
+}
+
 .btn-secondary{
     color: #FD6E0A;
     border: 1px solid #FD6E0A;
