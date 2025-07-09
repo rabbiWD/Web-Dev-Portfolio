@@ -179,6 +179,10 @@ main{
     color: #757575;
 }
 
+.section-desc-para{
+    margin-bottom: 40px;
+}
+
 /* Resume section Styles */
 .Resume{
     margin: 0 150px;
@@ -203,7 +207,7 @@ main{
 .experience-sub-title{
     font-size: 16px;
     color: #757575;
-    
+    margin-top: -20px;
 }
 
 .experience-desc{
