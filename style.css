@@ -1,7 +1,4 @@
-div, img, section, header{
-    margin: 0;
-    padding: 0;
-}
+
 .open-sans-normal {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -51,6 +48,7 @@ div, img, section, header{
 /* header */
 .header{
     background-image: url('./images/developer.png'), url('./images/header_bg.png');
+    /* background-size: 75px; */
     background-repeat: no-repeat;
     background-position: top left, bottom right;
     background-color: #FFF8F3;
@@ -158,7 +156,7 @@ main{
     font-weight: bold;
 }
 
-/* Skills */
+/* Skills section styles*/
 .skills{
     margin: 0 150px;
     margin-top: 120px;
@@ -179,4 +177,68 @@ main{
 .skill-desc{
     font-size: 14px;
     color: #757575;
+}
+
+/* Resume section Styles */
+.Resume{
+    margin: 0 150px;
+}
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+
+.resume-column-title{
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+}
+
+.experience-title{
+    font-size: 18px;
+    font-weight: bold;
+    color: #474747;
+}
+
+.experience-sub-title{
+    font-size: 16px;
+    color: #757575;
+    
+}
+
+.experience-desc{
+    font-size: 14px;
+    color: #757575;
+}
+
+.resume hr{
+    margin: 30px;
+}
+
+.resume-cv{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+/* footer styles */
+footer{
+    padding: 80px 230px;
+    display: flex;
+    gap: 100px;
+}
+
+.footer-column{
+    width: 50%;
+}
+
+footer input[type="text"], footer input[type="email"], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+
+    margin: 20px 0;
+    border: none;
 }
