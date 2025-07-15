@@ -48,7 +48,8 @@
 /* header */
 .header{
     background-image: url('./images/developer.png'), url('./images/header_bg.png');
-    /* background-size: 75px; */
+    min-height: 90vh;
+    background-size: auto 100%, auto;
     background-repeat: no-repeat;
     background-position: top left, bottom right;
     background-color: #FFF8F3;
@@ -122,6 +123,7 @@ nav li a{
 }
 
 .btn-secondary{
+    background-color: none;
     color: #FD6E0A;
     border: 1px solid #FD6E0A;
     font-size: 20px;
@@ -242,12 +244,11 @@ footer{
 
 footer input[type="text"], footer input[type="email"], footer textarea{
     height: 64px;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: white;
     display: block;
     width: 100%;
     padding: 10px 20px;
-
     margin: 20px 0;
     border: none;
 }
